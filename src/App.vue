@@ -1,16 +1,26 @@
 <script setup lang="ts">
-import { Button, InputText, MultiSelect } from 'primevue'
+import { onMounted } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { useI18nStore } from './modules/i18n/i18nStore'
+import { useThemeStore } from './modules/theme/themeStore'
+
+import Header from './components/HeaderComponent.vue'
+
+const i18nStore = useI18nStore()
+const themeStore = useThemeStore()
+const { t } = useI18n()
+
+onMounted(() => {
+    i18nStore.initLang()
+    themeStore.initTheme()
+})
 </script>
 
 <template>
-    <h1 class="comfortaa-700">You did it!</h1>
-    <p class="nata-sans-300">
-        Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-        documentation
-    </p>
-    <Button label="PrimeVue button" />
-    <InputText />
-    <MultiSelect />
+    <Header />
+
+    <h1>{{ t('booking.title') }}</h1>
+    <p>{{ t('booking.guests', { count: 4 }) }}</p>
 </template>
 
 <style scoped></style>

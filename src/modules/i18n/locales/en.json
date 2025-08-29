@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "Booking System",
+    "welcome": "Welcome to our booking system"
+  },
+  "navbar": {
+    "home": "Home",
+    "bookings": "Bookings",
+    "tables": "Tables",
+    "settings": "Settings"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "changeTheme": "Change theme",
+    "switchLanguage": "Change language",
+    "signout": "Sign out",
+    "search": "Search"
+  },
+  "theme": {
+    "light": "Light theme",
+    "dark": "Dark theme"
+  },
+  "language": {
+    "choose": "Choose language",
+    "english": "English",
+    "russian": "Русский"
+  },
+  "booking": {
+    "title": "Booking",
+    "add": "Add booking",
+    "edit": "Edit booking",
+    "delete": "Delete booking",
+    "guests": "{count} guests",
+    "time": "Time",
+    "table": "Table",
+    "noData": "No bookings available"
+  }
+}

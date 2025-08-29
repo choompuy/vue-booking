@@ -1,0 +1,23 @@
+.flex-row
+    display: flex
+    flex-direction: row
+    align-items: center
+
+.flex-column
+    display: flex
+    flex-direction: column
+
+$gap-sizes: (
+    "xxs": .125rem,
+    "xs": .25rem,
+    "s": .5rem,
+    "sm": .75rem,
+    "m": 1rem,
+    "ml": 1.25rem,
+    "l": 1.5rem,
+    "xl": 2rem
+)
+
+@each $name, $size in $gap-sizes
+    .gap-#{$name}
+        gap: $size

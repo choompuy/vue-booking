@@ -1,8 +1,10 @@
-
 @mixin nata-sans
-    font-family: 'Nata Sans', sans-serif
+    font-family: 'Nata Sans', sans-serif !important
     font-optical-sizing: auto
     font-style: normal
+
+.nata-sans
+    @include nata-sans
 
 @each $w in 100, 200, 300, 400, 500, 600, 700, 800, 900
     .nata-sans-#{$w}
@@ -10,9 +12,12 @@
         font-weight: $w
 
 @mixin comfortaa
-    font-family: 'Comfortaa', sans-serif
+    font-family: 'Comfortaa', sans-serif !important
     font-optical-sizing: auto
     font-style: normal
+
+.comfortaa
+    @include comfortaa
 
 @each $w in 300, 400, 500, 600, 700
     .comfortaa-#{$w}
