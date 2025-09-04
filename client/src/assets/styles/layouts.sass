@@ -1,0 +1,43 @@
+.flex-row
+    display: flex
+    flex-direction: row
+    align-items: center
+
+.flex-column
+    display: flex
+    flex-direction: column
+
+.flex-wrap
+    flex-wrap: wrap
+
+.text-secondary
+    color: var(--text-secondary-color)
+
+$gap-sizes: (
+    "xxs": .125rem,
+    "xs": .25rem,
+    "s": .5rem,
+    "sm": .75rem,
+    "m": 1rem,
+    "ml": 1.25rem,
+    "l": 1.5rem,
+    "xl": 2rem
+)
+
+@each $name, $size in $gap-sizes
+    .gap-#{$name}
+        gap: $size
+
+$text-sizes: (
+    "xs": .75rem,
+    "s": .875rem,
+    "m": 1rem,
+    "l": 1.25rem,
+    "xl": 1.5rem,
+    "2xl": 2rem,
+    "3xl": 3rem
+)
+
+@each $name, $size in $text-sizes
+    .text-#{$name}
+        font-size: $size !important

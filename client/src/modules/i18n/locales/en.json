@@ -1,0 +1,109 @@
+{
+  "app": {
+    "title": "Booking System",
+    "welcome": "Welcome to our booking system"
+  },
+  "navbar": {
+    "home": "Home",
+    "bookings": "Bookings",
+    "tables": "Tables",
+    "settings": "Settings"
+  },
+  "theme": {
+    "light": "Light theme",
+    "dark": "Dark theme"
+  },
+  "language": {
+    "choose": "Choose language",
+    "english": "English",
+    "russian": "Русский"
+  },
+  "status": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "changeTheme": "Change theme",
+    "switchLanguage": "Change language",
+    "search": "Search",
+    "settings": "Settings"
+  },
+  "auth": {
+    "welcome": "Welcome back!",
+    "register": "Create an account",
+    "resetPassword": "Reset your password",
+    "forgotPassword": "Forgot Password",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signOutDanger": "Are you sure you want to sign out?",
+    "inputLabel": {
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "inputPlaceholder": {
+      "email": "Enter your email",
+      "password": "Enter your password",
+      "confirmPassword": "Confirm your password"
+    },
+    "buttons": {
+      "signup": "Sign up",
+      "signin": "Sign in",
+      "createAccount": "Create account",
+      "sendPasswordReset": "Send password reset email",
+      "signout": "Sign out"
+    },
+    "success": {
+      "login": "Successfully logged in",
+      "logout": "Successfully logged out",
+      "register": "Account successfully created",
+      "resetEmailSent": "Password reset email sent"
+    },
+    "error": {
+      "missingFields": "Please fill in all fields",
+      "passwordMismatch": "Passwords do not match",
+      "userNotFound": "User not found",
+      "wrongPassword": "Incorrect password",
+      "emailInUse": "This email is already in use",
+      "weakPassword": "Password should be at least 6 characters",
+      "invalidEmail": "Please enter a valid email",
+      "tooManyRequests": "Too many attempts Please try again later",
+      "invalidCredentials": "Invalid email or password",
+      "userDisabled": "The account is disconnected. Contact the administrator",
+      "operationNotAllowed": "The operation is not allowed. Try another way to enter",
+      "networkError": "Network error. Check the Internet connection",
+      "internalError": "Inner error. Try it again later",
+      "unknownError": "An unknown error occurred"
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email must be valid",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordStrength": "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+      "confirmPasswordRequired": "Please confirm your password",
+      "confirmPasswordMatch": "Passwords must match",
+      "mustHaveLowercase": "Must have a lowercase letter",
+      "mustHaveUppercase": "Must have an uppercase letter",
+      "mustHaveNumber": "Must have a number"
+    }
+  },
+  "booking": {
+    "title": "Booking",
+    "add": "Add booking",
+    "edit": "Edit booking",
+    "delete": "Delete booking",
+    "guests": "{count} guests",
+    "date": "Date",
+    "time": "Time",
+    "zone": "Displayed zones",
+    "table": "Table",
+    "noData": "No bookings available"
+  }
+}

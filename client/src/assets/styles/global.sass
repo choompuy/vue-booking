@@ -1,0 +1,40 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    color: var(--text-primary-color)
+    font-size: var(--font-size-root)
+
+#app
+    display: grid
+    grid-template-rows: auto 1fr
+    min-width: 100%
+    min-height: 100vh
+    background-color: var(--surface-0)
+
+header
+    border-bottom: 1px solid var(--surface-2)
+    background-color: var(--surface-1)
+
+main
+    width: 100%
+    height: 100%
+
+@mixin page-content()
+    width: 100%
+    max-width: var(--page-max-width)
+    margin-inline: auto
+
+.header-content, .main-content, .page-content
+    @include page-content()
+
+.header-content
+    justify-content: space-between
+    padding-block: .5rem
+
+.main-content
+    display: flex
+    flex-direction: column
+    margin-top: 1.5rem

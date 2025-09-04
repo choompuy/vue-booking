@@ -1,0 +1,106 @@
+{
+  "zones": [
+    { "id": "z1", "name": "1 этаж" },
+    { "id": "z2", "name": "2 этаж" },
+    { "id": "z3", "name": "Банкетный зал" }
+  ],
+  "types": [
+    { "id": "t1", "name": "Заказ" },
+    { "id": "t2", "name": "Банкет" },
+    { "id": "t3", "name": "Событие" }
+  ],
+  "dates": [
+    {
+      "date": "2025-04-04",
+      "bookings": [
+        {
+          "id": "b1",
+          "type_id": "t1",
+          "title": "Заказ",
+          "customer": "Иван",
+          "guests": 4,
+          "zone_id": "z1",
+          "table": 15,
+          "time_start": "13:00",
+          "time_end": "14:00"
+        },
+        {
+          "id": "b2",
+          "type_id": "t2",
+          "title": "Банкет",
+          "customer": "ООО Ромашка",
+          "guests": 20,
+          "zone_id": "z3",
+          "table": null,
+          "time_start": "16:00",
+          "time_end": "17:45"
+        },
+        {
+          "id": "b3",
+          "type_id": "t3",
+          "title": "Мероприятие",
+          "customer": "Выпускники",
+          "guests": 50,
+          "zone_id": "z3",
+          "table": null,
+          "time_start": "18:00",
+          "time_end": "22:00"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-05",
+      "bookings": [
+        {
+          "id": "b4",
+          "type_id": "t1",
+          "title": "Заказ",
+          "customer": "Александр",
+          "guests": 2,
+          "zone_id": "z2",
+          "table": 23,
+          "time_start": "19:00",
+          "time_end": "20:00"
+        },
+        {
+          "id": "b5",
+          "type_id": "t1",
+          "title": "Заказ",
+          "customer": "Семья Петровых",
+          "guests": 5,
+          "zone_id": "z1",
+          "table": 10,
+          "time_start": "14:30",
+          "time_end": "16:00"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-06",
+      "bookings": [
+        {
+          "id": "b6",
+          "type_id": "t1",
+          "title": "Заказ",
+          "customer": "Мария",
+          "guests": 3,
+          "zone_id": "z2",
+          "table": 27,
+          "time_start": "12:00",
+          "time_end": "13:00"
+        },
+        {
+          "id": "b7",
+          "type_id": "t2",
+          "title": "Банкет",
+          "customer": "Корпоратив X",
+          "guests": 30,
+          "zone_id": "z3",
+          "table": null,
+          "time_start": "17:00",
+          "time_end": "21:00"
+        }
+      ]
+    }
+  ]
+}
